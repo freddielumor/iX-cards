@@ -50,8 +50,8 @@ $ yarn test
 ### Reset local games
 
 - Given the user has saved a game state.
-- When the user refreshes the page.
-- Then I the user can resume from the previous state.
+- When the user clicks "reset",
+- Then the game resets with all the cards moved to the deck.
 
 ## Technical Features
 
